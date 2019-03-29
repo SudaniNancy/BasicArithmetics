@@ -1,0 +1,6 @@
+framework module BasicArithmetics {
+  umbrella header "BasicArithmetics-umbrella.h"
+
+  export *
+  module * { export * }
+}

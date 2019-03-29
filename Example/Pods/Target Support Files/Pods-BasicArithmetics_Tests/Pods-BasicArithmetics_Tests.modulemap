@@ -1,0 +1,6 @@
+framework module Pods_BasicArithmetics_Tests {
+  umbrella header "Pods-BasicArithmetics_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

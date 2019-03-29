@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C76E08665B9234D986D3F260D46106 /* BasicArithmetics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D82995427C07AA6B0A94DEDDBE7C5A1 /* BasicArithmetics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9796BD01D2D0B132D4ACBEEDA96C6DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A0CD677A98E35CBA94D75866FA265F3A /* Pods-BasicArithmetics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD134E81F1073B18D1CF761D25FF68 /* Pods-BasicArithmetics_Tests-dummy.m */; };
+		A7030353BAC36642CB8B5D3FD2004591 /* Pods-BasicArithmetics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C80BF3CEF9AB0BCE8DF71CEBF3A7C2 /* Pods-BasicArithmetics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9698416224DF613005158B8 /* ArithmeticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9698415224DF613005158B8 /* ArithmeticService.swift */; };
+		EA8CAA16C2A263530520A7263C0AB90F /* BasicArithmetics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C406F5C26368D725BB4EAB68390A2 /* BasicArithmetics-dummy.m */; };
+		FD6548E913A5E0E0B291D0D08CD58780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8940CE353E7A77F0C4A9E25E0DDD87B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3741E8EEC139C2F6C66701E02E106015;
+			remoteInfo = BasicArithmetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C80BF3CEF9AB0BCE8DF71CEBF3A7C2 /* Pods-BasicArithmetics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BasicArithmetics_Tests-umbrella.h"; sourceTree = "<group>"; };
+		03FD134E81F1073B18D1CF761D25FF68 /* Pods-BasicArithmetics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BasicArithmetics_Tests-dummy.m"; sourceTree = "<group>"; };
+		0CBDEDF2E4BB56C36FCB223CB45B3288 /* BasicArithmetics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BasicArithmetics-prefix.pch"; sourceTree = "<group>"; };
+		0D82995427C07AA6B0A94DEDDBE7C5A1 /* BasicArithmetics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BasicArithmetics-umbrella.h"; sourceTree = "<group>"; };
+		1B1D39FE3418E8527131D87B37338DD6 /* BasicArithmetics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BasicArithmetics.modulemap; sourceTree = "<group>"; };
+		1EFDE4BE07D4C01E756F383B8C3FBDF5 /* Pods-BasicArithmetics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasicArithmetics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2932A5CCBF4AFB2E3EE262D1A7FC9F7D /* Pods-BasicArithmetics_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasicArithmetics_Tests-Info.plist"; sourceTree = "<group>"; };
+		2E74E07E1C5AFB279B12A0E87D2D5AB7 /* Pods-BasicArithmetics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasicArithmetics_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F7C406F5C26368D725BB4EAB68390A2 /* BasicArithmetics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BasicArithmetics-dummy.m"; sourceTree = "<group>"; };
+		3384ACD80B9E7CD12E383C8E8BC7C3EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AC175947FC988C4BD5C4738075A507A /* BasicArithmetics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BasicArithmetics.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AD5E099415CF039354244752AD586A2 /* Pods_BasicArithmetics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicArithmetics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51946864995FC47A6CE1B96E343889A0 /* Pods-BasicArithmetics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasicArithmetics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E1A3D92290B33ACABCA929C195AD3B /* Pods-BasicArithmetics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasicArithmetics_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED96F63C2CA08E9E6FA889F1478854A /* BasicArithmetics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BasicArithmetics-Info.plist"; sourceTree = "<group>"; };
+		A9F6090D332D09B4158C6686172F4924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B45FA3A2AFD3134F56FAC398BBC43F98 /* BasicArithmetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicArithmetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9698415224DF613005158B8 /* ArithmeticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArithmeticService.swift; path = BasicArithmetics/Classes/ArithmeticService.swift; sourceTree = "<group>"; };
+		C327949BC9382E4493D9909735F2DBB4 /* Pods-BasicArithmetics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BasicArithmetics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA6758483EC3E913EFB7581539BE4A9E /* BasicArithmetics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BasicArithmetics.xcconfig; sourceTree = "<group>"; };
+		DC867C8E5447A92C3753AA8B59F47DC6 /* Pods-BasicArithmetics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BasicArithmetics_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D987BED961B7CB0F70411045B34A3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9796BD01D2D0B132D4ACBEEDA96C6DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81F0882F02D2BBB6F100050BE5A6D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6548E913A5E0E0B291D0D08CD58780 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF224C084E9CB696F05764BF039C3EC /* Pods-BasicArithmetics_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC867C8E5447A92C3753AA8B59F47DC6 /* Pods-BasicArithmetics_Tests.modulemap */,
+				C327949BC9382E4493D9909735F2DBB4 /* Pods-BasicArithmetics_Tests-acknowledgements.markdown */,
+				1EFDE4BE07D4C01E756F383B8C3FBDF5 /* Pods-BasicArithmetics_Tests-acknowledgements.plist */,
+				03FD134E81F1073B18D1CF761D25FF68 /* Pods-BasicArithmetics_Tests-dummy.m */,
+				62E1A3D92290B33ACABCA929C195AD3B /* Pods-BasicArithmetics_Tests-frameworks.sh */,
+				2932A5CCBF4AFB2E3EE262D1A7FC9F7D /* Pods-BasicArithmetics_Tests-Info.plist */,
+				03C80BF3CEF9AB0BCE8DF71CEBF3A7C2 /* Pods-BasicArithmetics_Tests-umbrella.h */,
+				51946864995FC47A6CE1B96E343889A0 /* Pods-BasicArithmetics_Tests.debug.xcconfig */,
+				2E74E07E1C5AFB279B12A0E87D2D5AB7 /* Pods-BasicArithmetics_Tests.release.xcconfig */,
+			);
+			name = "Pods-BasicArithmetics_Tests";
+			path = "Target Support Files/Pods-BasicArithmetics_Tests";
+			sourceTree = "<group>";
+		};
+		46592ACB4D9DF7E9DBA57442E79E0887 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3AC175947FC988C4BD5C4738075A507A /* BasicArithmetics.podspec */,
+				A9F6090D332D09B4158C6686172F4924 /* LICENSE */,
+				3384ACD80B9E7CD12E383C8E8BC7C3EE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAFD01074CE1B84C1B12FC02856A04E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF224C084E9CB696F05764BF039C3EC /* Pods-BasicArithmetics_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F7F7FFEE0553534A64E745BE7D371B23 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF4D1ED62C759D851B9050742BE32533 /* Products */,
+				CAFD01074CE1B84C1B12FC02856A04E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4D1ED62C759D851B9050742BE32533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45FA3A2AFD3134F56FAC398BBC43F98 /* BasicArithmetics.framework */,
+				3AD5E099415CF039354244752AD586A2 /* Pods_BasicArithmetics_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9D7A2E7CD0C8F924152AD6705F9E2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1D39FE3418E8527131D87B37338DD6 /* BasicArithmetics.modulemap */,
+				DA6758483EC3E913EFB7581539BE4A9E /* BasicArithmetics.xcconfig */,
+				2F7C406F5C26368D725BB4EAB68390A2 /* BasicArithmetics-dummy.m */,
+				9ED96F63C2CA08E9E6FA889F1478854A /* BasicArithmetics-Info.plist */,
+				0CBDEDF2E4BB56C36FCB223CB45B3288 /* BasicArithmetics-prefix.pch */,
+				0D82995427C07AA6B0A94DEDDBE7C5A1 /* BasicArithmetics-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BasicArithmetics";
+			sourceTree = "<group>";
+		};
+		E05ABED33BFB2765AFA3D8375ADA0265 /* BasicArithmetics */ = {
+			isa = PBXGroup;
+			children = (
+				46592ACB4D9DF7E9DBA57442E79E0887 /* Pod */,
+				DF9D7A2E7CD0C8F924152AD6705F9E2E /* Support Files */,
+				B9698415224DF613005158B8 /* ArithmeticService.swift */,
+			);
+			name = BasicArithmetics;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F7F7FFEE0553534A64E745BE7D371B23 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05ABED33BFB2765AFA3D8375ADA0265 /* BasicArithmetics */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A253FF0C6748AE3FFA12E5D172AE40B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7030353BAC36642CB8B5D3FD2004591 /* Pods-BasicArithmetics_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6731F6C94C764C2234C77FB9F7C77C3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C76E08665B9234D986D3F260D46106 /* BasicArithmetics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1990B265C0F893414A9488DA80847D82 /* Pods-BasicArithmetics_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3434C77525BC832EE708B689B42368 /* Build configuration list for PBXNativeTarget "Pods-BasicArithmetics_Tests" */;
+			buildPhases = (
+				2A253FF0C6748AE3FFA12E5D172AE40B /* Headers */,
+				3C5ED72D5E864258EA332DA646160E83 /* Sources */,
+				E81F0882F02D2BBB6F100050BE5A6D41 /* Frameworks */,
+				31401E8B818B63BD1FA9E11DCD4B03AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6F832C3A70967C05626DD7C2F52219 /* PBXTargetDependency */,
+			);
+			name = "Pods-BasicArithmetics_Tests";
+			productName = "Pods-BasicArithmetics_Tests";
+			productReference = 3AD5E099415CF039354244752AD586A2 /* Pods_BasicArithmetics_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3741E8EEC139C2F6C66701E02E106015 /* BasicArithmetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2755E7FB1B2970DA0051B9E3E907202E /* Build configuration list for PBXNativeTarget "BasicArithmetics" */;
+			buildPhases = (
+				6731F6C94C764C2234C77FB9F7C77C3F /* Headers */,
+				EAC8E05CC9EC65409325FB35E2346B07 /* Sources */,
+				7D987BED961B7CB0F70411045B34A3B6 /* Frameworks */,
+				CFA17F04722328B30C8078FB70F63332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicArithmetics;
+			productName = BasicArithmetics;
+			productReference = B45FA3A2AFD3134F56FAC398BBC43F98 /* BasicArithmetics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3741E8EEC139C2F6C66701E02E106015 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF4D1ED62C759D851B9050742BE32533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3741E8EEC139C2F6C66701E02E106015 /* BasicArithmetics */,
+				1990B265C0F893414A9488DA80847D82 /* Pods-BasicArithmetics_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31401E8B818B63BD1FA9E11DCD4B03AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA17F04722328B30C8078FB70F63332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5ED72D5E864258EA332DA646160E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CD677A98E35CBA94D75866FA265F3A /* Pods-BasicArithmetics_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC8E05CC9EC65409325FB35E2346B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8CAA16C2A263530520A7263C0AB90F /* BasicArithmetics-dummy.m in Sources */,
+				B9698416224DF613005158B8 /* ArithmeticService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A6F832C3A70967C05626DD7C2F52219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BasicArithmetics;
+			target = 3741E8EEC139C2F6C66701E02E106015 /* BasicArithmetics */;
+			targetProxy = 8940CE353E7A77F0C4A9E25E0DDD87B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27D96219917C64179D66C9FE834E13C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6758483EC3E913EFB7581539BE4A9E /* BasicArithmetics.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BasicArithmetics/BasicArithmetics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BasicArithmetics/BasicArithmetics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BasicArithmetics/BasicArithmetics.modulemap";
+				PRODUCT_MODULE_NAME = BasicArithmetics;
+				PRODUCT_NAME = BasicArithmetics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		381C0EEC893A3A4E51B29F73E294FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51946864995FC47A6CE1B96E343889A0 /* Pods-BasicArithmetics_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasicArithmetics_Tests/Pods-BasicArithmetics_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasicArithmetics_Tests/Pods-BasicArithmetics_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F6A5554A0724B6380A7A271D6C43663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E74E07E1C5AFB279B12A0E87D2D5AB7 /* Pods-BasicArithmetics_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasicArithmetics_Tests/Pods-BasicArithmetics_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasicArithmetics_Tests/Pods-BasicArithmetics_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACF94465B2798F0C264AC5A97BB3C8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6758483EC3E913EFB7581539BE4A9E /* BasicArithmetics.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BasicArithmetics/BasicArithmetics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BasicArithmetics/BasicArithmetics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BasicArithmetics/BasicArithmetics.modulemap";
+				PRODUCT_MODULE_NAME = BasicArithmetics;
+				PRODUCT_NAME = BasicArithmetics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2755E7FB1B2970DA0051B9E3E907202E /* Build configuration list for PBXNativeTarget "BasicArithmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF94465B2798F0C264AC5A97BB3C8F5 /* Debug */,
+				27D96219917C64179D66C9FE834E13C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3434C77525BC832EE708B689B42368 /* Build configuration list for PBXNativeTarget "Pods-BasicArithmetics_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381C0EEC893A3A4E51B29F73E294FAF9 /* Debug */,
+				6F6A5554A0724B6380A7A271D6C43663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

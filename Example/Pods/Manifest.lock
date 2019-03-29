@@ -1,0 +1,16 @@
+PODS:
+  - BasicArithmetics (0.1.0)
+
+DEPENDENCIES:
+  - BasicArithmetics (from `../`)
+
+EXTERNAL SOURCES:
+  BasicArithmetics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicArithmetics: d4e166bc1fcbfafd9cd8000f0866c36d7050a056
+
+PODFILE CHECKSUM: b95974e1b430f003b8d35dc8777c5e36acad31fc
+
+COCOAPODS: 1.7.0.beta.3
